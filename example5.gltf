@@ -84,8 +84,8 @@
     "buffers": [
         {
             "byteLength": 68368,
-            "name": "buffer_eample3",
-            "uri": "buffer_eample3.bin"
+            "name": "buffer_example5",
+            "uri": "buffer_example5.bin"
         }
     ],
     "cameras": [
@@ -100,6 +100,27 @@
             "type": "perspective"
         }
     ],
+    "materials": [
+        {
+            "doubleSided": false,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "Material.001",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.48742595314979553,
+                    0.09092387557029724,
+                    0.64000004529953,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
     "meshes": [
         {
             "name": "Example005",
@@ -110,6 +131,7 @@
                         "POSITION": 2
                     },
                     "indices": 0,
+                    "material": 0,
                     "mode": 4
                 }
             ]
@@ -146,14 +168,14 @@
                 1.0
             ],
             "scale": [
-                1.0,
-                1.0,
-                1.0
+                0.07999999821186066,
+                0.07999999821186066,
+                0.07999999821186066
             ],
             "translation": [
-                0.0,
-                0.0,
-                0.0
+                2.959381103515625,
+                -0.345731258392334,
+                11.96378231048584
             ]
         },
         {
